@@ -17,7 +17,8 @@ nosotros.html
 productos.html
 contactos.html
 fotoAutores.html
-README.md
+COMANDOS_GITHUB.md
+SANITIZATION_SUMMARY.md
 
 # Archivos HTML originales (seccion-Productos)
 seccion-Productos/impresionDigital.html
@@ -96,5 +97,3 @@ out/
 # ============================================
 # Agrega aquí cualquier otro archivo con información sensible
 
-COMANDOS_GITHUB.md
-SANITIZATION_SUMMARY.md
