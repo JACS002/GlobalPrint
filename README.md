@@ -201,20 +201,13 @@ El sitio es estático y puede abrirse directamente haciendo doble clic en `index
 - ✅ Edge (últimas 2 versiones)
 - ✅ Dispositivos móviles iOS y Android
 
-## 🎨 Paleta de Colores
+## Paleta de Colores
 
 - **Naranja Principal**: `#E6540F`
 - **Azul Principal**: `#366bd4`
 - **Fondo Oscuro**: `#343a40`
 - **Texto Principal**: `#000000`
 - **Texto Claro**: `#ffffff`
-
-## Información de Contacto
-
-- **Email**: gp.ec@hotmail.com
-- **WhatsApp**: 098 084-0329
-- **Teléfono**: 02 322-8683
-- **Horario**: Lunes a Viernes, 9:00 am - 6:00 pm
 
 ## Créditos
 
