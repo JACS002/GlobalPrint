@@ -220,9 +220,5 @@ El sitio es estático y puede abrirse directamente haciendo doble clic en `index
 
 Para créditos de las imágenes utilizadas, visita la página [Autores de Fotos](fotoAutores.html).
 
-## Licencia
-
-Este proyecto es de uso de la empresa. Todos los derechos reservados © 2024 GlobalPrint.
-
 ---
 
