@@ -1,0 +1,200 @@
+/* para ir de direccion a otra con animacion */
+html{
+    scroll-behavior: smooth;
+
+}
+.navbar-collapse{
+    margin: 30px;
+}
+
+nav {
+    /* Agrega una línea gris en la parte inferior de la barra de navegación */
+    border-bottom: 3px solid gray;
+    /* Hace que la barra de navegación sea pegajosa */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-light{
+    background-color: #FFFFFF;
+
+}
+
+.nav-item{
+    margin-left: 12px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    transition: all 0.5s;
+}
+
+ .nav-item, .nav-item a:hover{
+    /* color: #ff0000; cambiar color de la letra */
+    /* Aumenta el tamaño del elemento al pasar el mouse sobre él */
+    transform: scale(1.1);
+} 
+
+.nav-activado{
+    color: #E6540F;
+}
+
+/* clase para hacer logo responsive */
+.logo{
+    height: 70px;
+    margin-left: 27px;
+}
+
+@media (max-width: 768px){
+    .logo{
+        height: 50px;
+        margin-left: 0px;
+    }
+    
+}
+
+.contenido-Contactos{
+    line-height: 2.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+@media (max-width: 768px){
+    .contenido-Contactos{
+        margin: 2rem;
+        line-height: 2rem; 
+        padding: 0rem;
+    }
+    
+}
+
+.montserrat-bold{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: normal;
+    font-size: large;
+}
+
+.montserrat-medio{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.montserrat-semilight{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: normal;
+}
+
+.montserrat-light{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: large;
+}
+
+.fondo-blanco{
+    background-color: #FFFFFF;
+}
+
+.letra-negro{
+    color: black;
+}
+
+.color-titulo{
+    color: #706F6F;
+}
+
+.margen{
+    margin: 10px;
+}
+
+.padding{
+    padding: 20px;
+}
+
+
+
+.linea-footer{
+    border-color: #6e6e6e; 
+    border-width: 3px;
+    width: 90%;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.container a{
+    text-decoration: none !important;
+}
+
+.container a:hover{
+    color: #da6900;
+}
+
+
+i{
+    font-size: 20px;
+}
+
+.icono-call{
+    font-size: 50px;
+    color: #164194;
+}
+
+.icono-clock{
+    font-size: 50px;
+    color: #E6540F;
+}
+
+.letra-blanca{
+    color: white;
+}
+
+.boton-naranja {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: none;
+    background: #E6540F;
+    box-shadow: 0 3px #af400c;
+}
+.boton-naranja:hover {
+    box-shadow: 0 3px #af400c;
+    top: 1px;
+}
+.boton-naranja:active {
+    box-shadow: 0 0 #af400c;
+    top: 5px;
+}
+
+footer.bg-dark a {
+    color: white;
+    text-decoration: none;
+}
+
+footer.bg-dark a:hover, footer.bg-dark a:focus {
+    color: #ccc; /* Cambia al color que prefieras para el hover */
+}
+
+footer.bg-dark .text-primary {
+    color: white; /* Cambia 'white' por cualquier color que desees */
+}
+
+

@@ -1,0 +1,100 @@
+# ============================================
+# GitIgnore para GlobalPrint
+# ============================================
+# IMPORTANTE: Este .gitignore está configurado para subir
+# SOLO las versiones sanitizadas (-sanitized) y mantener
+# los archivos originales de forma local y privada.
+# ============================================
+
+# ============================================
+# ARCHIVOS ORIGINALES CON DATOS REALES
+# (NO SUBIR AL REPOSITORIO PÚBLICO)
+# ============================================
+
+# Archivos HTML originales (raíz)
+index.html
+nosotros.html
+productos.html
+contactos.html
+fotoAutores.html
+README.md
+
+# Archivos HTML originales (seccion-Productos)
+seccion-Productos/impresionDigital.html
+seccion-Productos/impresionOffset.html
+seccion-Productos/impresionGranFormato.html
+seccion-Productos/PapeleriaCorporativa.html
+seccion-Productos/formulariosVarios.html
+seccion-Productos/etiquetas.html
+
+# ============================================
+# ARCHIVOS DEL SISTEMA OPERATIVO
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================
+# EDITORES E IDEs
+# ============================================
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# NODE (si se usa en el futuro)
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# ============================================
+# ARCHIVOS TEMPORALES Y BACKUPS
+# ============================================
+*.tmp
+*.temp
+*.log
+*.cache
+*.bak
+*.backup
+*~
+
+# ============================================
+# ARCHIVOS DE CONFIGURACIÓN SENSIBLES
+# ============================================
+.env
+.env.local
+.env.*.local
+config.local.js
+secrets.json
+
+# ============================================
+# CARPETAS DE BUILD Y DIST
+# ============================================
+dist/
+build/
+out/
+
+# ============================================
+# ARCHIVOS ESPECÍFICOS DEL PROYECTO
+# ============================================
+# Agrega aquí cualquier otro archivo con información sensible
+
+COMANDOS_GITHUB.md
+SANITIZATION_SUMMARY.md

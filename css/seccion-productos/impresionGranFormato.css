@@ -1,0 +1,349 @@
+/* para ir de direccion a otra con animacion */
+html{
+    scroll-behavior: smooth;
+
+}
+.navbar-collapse{
+    margin: 30px;
+}
+
+nav {
+    /* Agrega una línea gris en la parte inferior de la barra de navegación */
+    border-bottom: 3px solid gray;
+    /* Hace que la barra de navegación sea pegajosa */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-light{
+    background-color: #FFFFFF;
+
+}
+
+.nav-item{
+    margin-left: 12px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    transition: all 0.5s;
+}
+
+ .nav-item, .nav-item a:hover{
+    /* color: #ff0000; cambiar color de la letra */
+    /* Aumenta el tamaño del elemento al pasar el mouse sobre él */
+    transform: scale(1.1);
+} 
+
+.nav-activado{
+    color: #366bd4;
+}
+/* clase para hacer logo responsive */
+.logo{
+    height: 70px;
+    margin-left: 27px;
+}
+
+@media (max-width: 768px){
+    .logo{
+        height: 50px;
+        margin-left: 0px;
+    }
+    
+}
+
+.contenido-Contactos{
+    line-height: 2.5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+@media (max-width: 768px){
+    .contenido-Contactos{
+        margin: 2rem;
+        line-height: 2rem; 
+        padding: 0rem;
+    }
+    
+}
+
+.montserrat-bold{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: normal;
+    font-size: large;
+}
+
+.montserrat-medio{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.montserrat-semilight{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: normal;
+}
+
+.montserrat-light{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: large;
+}
+
+.fondo-blanco{
+    background-color: #FFFFFF;
+}
+
+.letra-negro{
+    color: black;
+}
+
+.color-titulo{
+    color: #706F6F;
+}
+
+.margen{
+    margin: 10px;
+}
+
+.padding{
+    padding: 20px;
+}
+
+
+
+.linea-footer{
+    border-color: #6e6e6e; 
+    border-width: 3px;
+    width: 90%;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.container a{
+    text-decoration: none !important;
+}
+
+.container a:hover{
+    color: #da6900;
+}
+
+
+i{
+    font-size: 20px;
+}
+
+.icono-call{
+    font-size: 50px;
+    color: #164194;
+}
+
+.icono-clock{
+    font-size: 50px;
+    color: #E6540F;
+}
+
+.letra-blanca{
+    color: white;
+}
+
+.letra-negra{
+    color: black;
+}
+
+.boton-naranja {
+    min-width: 130px;
+    height: 40px;
+    color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: none;
+    background: #E6540F;
+    box-shadow: 0 3px #af400c;
+}
+.boton-naranja:hover {
+    box-shadow: 0 3px #ffffff;
+    top: 1px;
+}
+.boton-naranja:active {
+    box-shadow: 0 0 #af400c;
+    top: 5px;
+}
+
+.boton-naranja a{
+    text-decoration: none !important;
+}
+
+.boton-azul {
+    min-width: 4%;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 5%;
+    border: none;
+    background: #164194;
+    box-shadow: 0 5px #0c2d71;
+}
+.boton-azul:hover {
+    box-shadow: 0 3px #0c2d71;
+    top: 1px;
+}
+.boton-azul:active {
+    box-shadow: 0 0 #0c2d71;
+    top: 5px;
+}
+
+footer.bg-dark a {
+    color: white;
+    text-decoration: none;
+}
+
+footer.bg-dark a:hover, footer.bg-dark a:focus {
+    color: #ccc; /* Cambia al color que prefieras para el hover */
+}
+
+footer.bg-dark .text-primary {
+    color: white; /* Cambia 'white' por cualquier color que desees */
+}
+
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.bg-image {
+    position: relative; 
+    background-image:url(/assets/impresioGranFormato1.jpg); /* Asegúrate de cambiar esto por la ruta correcta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    margin:50px;
+    width: 40%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+}
+
+.card-text{
+    padding: 2%;
+}
+
+.contenedor-card{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+}
+
+.card-text{
+    line-height: 2rem;
+}
+
+.imagen-query{
+    padding-top: 3%;
+}
+
+.contenedor-general{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background-image: url(/assets/impresioGranFormato1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+    .contenedor-card {
+        justify-content: center;
+    }
+    
+    .imagen-query{
+        height: 50%;
+        width: 100%;
+        background-image: url(/assets/impresioGranFormato1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .contenedor-general{
+        background-image: none;
+        align-items: center;
+    }
+
+    .card{
+        width: 90%;
+        margin: 0px;
+        margin-top: -30%;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .card{
+        width: 90%;
+        margin: 0px;
+        margin-top: -10%;
+    }
+    .imagen-query{
+        height: 70%;
+        width: 100%;
+        background-image: url(/assets/impresioGranFormato1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .contenedor-card{
+        margin-bottom: 5%;
+    }
+    .contenedor-general{
+        height: 120%;
+    }
+}
+
+
+.back-button:hover {
+    color: #0243c4;/* Efecto al pasar el mouse para feedback visual */
+    text-decoration: none; /* Elimina subrayado de enlace */
+}
+
+a{
+    text-decoration: none !important;
+    color: black;
+}
+
+

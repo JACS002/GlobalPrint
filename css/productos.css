@@ -1,0 +1,182 @@
+.navbar-collapse{
+    margin: 30px;
+}
+
+nav {
+    /* Agrega una línea gris en la parte inferior de la barra de navegación */
+    border-bottom: 3px solid gray;
+    /* Hace que la barra de navegación sea pegajosa */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-light{
+    background-color: #FFFFFF;
+
+}
+
+.nav-item{
+    margin-left: 12px;
+    margin-right: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    transition: all 0.5s;
+}
+
+ .nav-item, .nav-item a:hover{
+    /* color: #ff0000; cambiar color de la letra */
+    /* Aumenta el tamaño del elemento al pasar el mouse sobre él */
+    transform: scale(1.1);
+} 
+
+.nav-activado{
+    color: #366bd4;
+}
+
+/* clase para hacer logo responsive */
+.logo{
+    height: 70px;
+    margin-left: 27px;
+}
+
+@media (max-width: 768px){
+    .logo{
+        height: 50px;
+        margin-left: 0px;
+    }
+    
+}
+
+.image-container {
+    margin-bottom: 5rem;
+}
+
+.image-container img {
+    width: 80%;
+    height: 350px; /* Definir una altura fija para todas las imágenes */
+    object-fit: cover; /* Ajustar la imagen dentro del contenedor */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 400ms ease;
+}
+
+.image-container img:hover {
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+
+@media (max-width: 768px){
+    .image-container img{
+        height: 300px; 
+    }
+    
+}
+
+.montserrat-bold{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: normal;
+    font-size: large;
+}
+
+.montserrat-medio{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.montserrat-semilight{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: normal;
+}
+
+.montserrat-light{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: large;
+}
+
+.fondo-blanco{
+    background-color: #FFFFFF;
+}
+
+.letra-negro{
+    color: black;
+}
+
+.color-titulo{
+    color: #706F6F;
+}
+
+.margen{
+    margin: 10px;
+}
+
+.padding{
+    padding: 20px;
+}
+
+
+
+.linea-footer{
+    border-color: #6e6e6e; 
+    border-width: 3px;
+    width: 90%;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.container a{
+    text-decoration: none !important;
+}
+
+.container a:hover{
+    color: #da6900;
+}
+
+
+i{
+    font-size: 20px;
+}
+
+.icono-call{
+    font-size: 50px;
+    color: #164194;
+}
+
+.icono-clock{
+    font-size: 50px;
+    color: #E6540F;
+}
+
+.letra-blanca{
+    color: white;
+}
+
+
+footer.bg-dark a {
+    color: white;
+    text-decoration: none;
+}
+
+footer.bg-dark a:hover, footer.bg-dark a:focus {
+    color: #ccc; /* Cambia al color que prefieras para el hover */
+}
+
+footer.bg-dark .text-primary {
+    color: white; /* Cambia 'white' por cualquier color que desees */
+}
+
